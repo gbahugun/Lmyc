@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LmycDataLib", "LmycDataLib\LmycDataLib.csproj", "{F6FD1175-CA97-4070-89EF-1F37C811376B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LmycWebSite", "LmycWebSite\LmycWebSite.csproj", "{BC7604E7-26C7-4260-8CB8-84E33ED0220F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F6FD1175-CA97-4070-89EF-1F37C811376B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6FD1175-CA97-4070-89EF-1F37C811376B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6FD1175-CA97-4070-89EF-1F37C811376B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7604E7-26C7-4260-8CB8-84E33ED0220F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7604E7-26C7-4260-8CB8-84E33ED0220F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7604E7-26C7-4260-8CB8-84E33ED0220F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7604E7-26C7-4260-8CB8-84E33ED0220F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

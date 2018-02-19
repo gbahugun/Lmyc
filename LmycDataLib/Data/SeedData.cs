@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LmycDataLib
+namespace LmycDataLib.Data
 {
-    public class IdentityModels
+    class SeedData
     {
     }
 }

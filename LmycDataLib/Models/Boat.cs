@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace LmycDataLib.Models
 {
-    class Boat
+    public class Boat
     {
-        [Key]
+        //[Key]
         public int BoatId { get; set; }
 
         [Required]
@@ -32,7 +32,7 @@ namespace LmycDataLib.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime CreationDate { get; set; }
 
-        [ForeignKey("User")]
+        //[ForeignKey("User")]
         [ScaffoldColumn(false)]
         public string CreatedBy { get; set; }
 

@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LmycDataLib", "LmycDataLib\LmycDataLib.csproj", "{F6FD1175-CA97-4070-89EF-1F37C811376B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LmycWebSite", "LmycWebSite\LmycWebSite.csproj", "{BC7604E7-26C7-4260-8CB8-84E33ED0220F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F6FD1175-CA97-4070-89EF-1F37C811376B} = {F6FD1175-CA97-4070-89EF-1F37C811376B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

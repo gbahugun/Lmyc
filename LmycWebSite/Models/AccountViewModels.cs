@@ -49,9 +49,8 @@ namespace LmycWebSite.Models
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "Email")]
-        [EmailAddress]
-        public string Email { get; set; }
+        [Display(Name = "Username")]
+        public string Username { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -64,6 +63,10 @@ namespace LmycWebSite.Models
 
     public class RegisterViewModel
     {
+        [Required]
+        [Display(Name = "Username")]
+        public string Username { get; set; }
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
@@ -79,6 +82,42 @@ namespace LmycWebSite.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        [Display(Name = "First Name")]
+        public string Fname { get; set; }
+
+        [Required]
+        [Display(Name = "Last Name")]
+        public string Lname { get; set; }
+
+        [Required]
+        [Display(Name = "Street Address")]
+        public string Street { get; set; }
+
+        [Required]
+        [Display(Name = "City")]
+        public string City { get; set; }
+
+        [Required]
+        [Display(Name = "Province")]
+        public string Province { get; set; }
+
+        [Required]
+        [Display(Name = "Postal Code")]
+        public string Postalcode { get; set; }
+
+        [Required]
+        [Display(Name = "Country")]
+        public string Country { get; set; }
+
+        [Required]
+        [Display(Name = "Mobile Number")]
+        public string Mnumber { get; set; }
+
+        [Required]
+        [Display(Name = "Sailing Experience")]
+        public string Experience { get; set; }
     }
 
     public class ResetPasswordViewModel

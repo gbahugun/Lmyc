@@ -84,6 +84,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\SeedData.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Boat.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -94,8 +95,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

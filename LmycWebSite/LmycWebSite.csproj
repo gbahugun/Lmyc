@@ -190,14 +190,15 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BoatsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201802190527386_Lymc.cs" />
-    <Compile Include="Migrations\201802190527386_Lymc.Designer.cs">
-      <DependentUpon>201802190527386_Lymc.cs</DependentUpon>
+    <Compile Include="Migrations\201802190719478_Lymc.cs" />
+    <Compile Include="Migrations\201802190719478_Lymc.Designer.cs">
+      <DependentUpon>201802190719478_Lymc.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -217,6 +218,7 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="docs\migrations.txt" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -311,6 +313,11 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Boats\Create.cshtml" />
+    <Content Include="Views\Boats\Delete.cshtml" />
+    <Content Include="Views\Boats\Details.cshtml" />
+    <Content Include="Views\Boats\Edit.cshtml" />
+    <Content Include="Views\Boats\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
@@ -330,8 +337,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201802190527386_Lymc.resx">
-      <DependentUpon>201802190527386_Lymc.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201802190719478_Lymc.resx">
+      <DependentUpon>201802190719478_Lymc.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

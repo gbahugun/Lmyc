@@ -211,6 +211,7 @@
     <Content Include="App_Data\Lmyc_log.ldf">
       <DependentUpon>Lmyc.mdf</DependentUpon>
     </Content>
+    <Content Include="Assets\Images\logo.png" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
